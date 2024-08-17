@@ -1,9 +1,8 @@
-streamlit
-Pillow
-opencv-python-headless
-numpy
-imutils
-tensorflow
-keras
-protobuf
-
+streamlit==1.37.1
+Pillow==9.5.0
+opencv-python-headless==4.7.0.72
+numpy==1.23.5
+imutils==0.5.4
+tensorflow==2.9.0
+keras==2.9.0
+protobuf==3.20.1

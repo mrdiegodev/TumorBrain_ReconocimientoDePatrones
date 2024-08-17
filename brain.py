@@ -127,7 +127,7 @@ def process_and_predict(image, model, img_size=(224, 224), add_pixels=0):
     return prediction, accuracy
 
 # Descargar el modelo desde Google Drive
-gdrive_url = 'https://drive.google.com/uc?id=1kCua8wmGm_wExdT3IzfXVUXuezsSTrz9'
+gdrive_url = 'https://drive.google.com/file/d/1kCua8wmGm_wExdT3IzfXVUXuezsSTrz9/view?usp=drive_link'
 output = 'BrainTumor.keras'
 gdown.download(gdrive_url, output, quiet=False)
 

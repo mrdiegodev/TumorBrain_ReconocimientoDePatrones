@@ -4,6 +4,7 @@ import cv2
 import numpy as np
 import imutils
 from tensorflow.keras.models import load_model
+import os  # Asegúrate de tener esta línea para importar el módulo os
 import gdown
 
 # Configuración de la página

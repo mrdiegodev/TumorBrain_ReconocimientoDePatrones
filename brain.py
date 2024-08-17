@@ -7,10 +7,9 @@ from tensorflow.keras.models import load_model
 import gdown
 
 # Descargar el archivo desde Google Drive
-file_id = "1kCua8wmGm_wExdT3IzfXVUXuezsSTrz9"
-output = "BrainTumor.keras"  # Nombre con el que se guardará el archivo
-gdrive_url = f"https://drive.google.com/uc?id={file_id}"
-gdown.download(gdrive_url, output, quiet=False)
+gdrive_url = 'https://drive.google.com/uc?id=1kCua8wmGm_wExdT3IzfXVUXuezsSTrz9'
+output = 'BrainTumor.keras'
+gdown.download(gdrive_url, output, quiet=True)
 
 # Cargar el modelo
 model_path = "BrainTumor.keras"

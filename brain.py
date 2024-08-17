@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 import gdown
 import os
 
-# Configuración de estilo CSS
+# Configuración de estilo CSS corregido
 page_bg_css = """
 <style>
 [data-testid="stAppViewContainer"] {
@@ -114,4 +114,3 @@ if uploaded_file is not None:
             st.write("**El modelo no detecta la presencia de un tumor.**")
 else:
     st.write("Por favor, sube una imagen para analizar.")
-

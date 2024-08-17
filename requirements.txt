@@ -3,5 +3,7 @@ Pillow
 opencv-python-headless
 numpy
 imutils
-
+tensorflow
+keras
+protobuf
 

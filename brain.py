@@ -129,7 +129,7 @@ def process_and_predict(image, model, img_size=(224, 224), add_pixels=0):
 # Descargar el modelo desde Google Drive
 # Descargar el modelo desde Google Drive si no existe localmente
 model_path = 'BrainTumor.keras'
-gdrive_url = 'https://drive.google.com/file/d/1kCua8wmGm_wExdT3IzfXVUXuezsSTrz9/view?usp=sharing'
+gdrive_url = 'https://drive.google.com/file/d/1kCua8wmGm_wExdT3IzfXVUXuezsSTrz9/view?usp=drive_link'
 output = 'BrainTumor.keras'
 
 # Cargar el modelo
